@@ -1,0 +1,59 @@
+body {
+    color: rgb(138, 2, 2);
+    background: rgb(107, 107, 107);
+    margin: 0px;
+    font-family: "Lilita One", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgba(0, 0, 0, 1);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(0, 0, 1);
+}
+
+section {
+    background: rgb(201, 197, 197);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200;
+}
+
+.categoria-videos img:hover{
+    opacity:1.0;
+    border: 1px solid rgb(138, 2, 2)
+}
+
+.categoria h2{
+    color: rgb(0, 0, 1);
+}
